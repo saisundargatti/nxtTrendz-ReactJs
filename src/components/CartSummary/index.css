@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.cart-summary-container {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 78%;
+  line-height: 1.5;
+}
+.cart-summary-heading {
+  color: #171f46;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0px;
+}
+.total-amount {
+  font-size: 24px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: #171f46;
+}
+.cart-holder {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.cart-summary-paragraph {
+  font-size: 20px;
+  font-family: Roboto;
+  color: #616e7c;
+  margin: 0px;
+}
+.summary-btn {
+  background-color: #0b69ff;
+  color: white;
+  font-family: Roboto;
+  font-size: 18px;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+}
